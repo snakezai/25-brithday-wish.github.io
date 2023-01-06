@@ -1,0 +1,21 @@
+/* 计数环（3秒） */
+.huan{
+    stroke-dasharray: 1260;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    transform: rotate(-90deg);
+    animation: huan 3s;
+}
+text{
+    animation: huan 3s;
+}
+@keyframes huan{
+    0%{
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    100%{
+        stroke-dashoffset: 1260;
+        opacity: 0;
+    }
+}
