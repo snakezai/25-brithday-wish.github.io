@@ -1,1 +1,1 @@
-# 25 brithday wish.github.io
+# birthday-wish-25.github.io
